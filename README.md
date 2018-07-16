@@ -35,13 +35,13 @@ The nn was trained with a variety of different configurations. A massive impact 
 Running the training on with five epochs, a batch size of 2, a learning rate of 0.0001 and a keep probability of 50% the standard deviation was varied every training loop.
 The following images show the dependency of the quality of the classification in relation to the standard deviation of the kernel initializer:
 ##### Initializing random_normal_initializer with stddev = 0.01
-![im01](runs/EPOCH_5_BATCH_2_KERNEL_INIT_0p01/um_000000.png.png)
+![im01](runs/EPOCH_5_BATCH_2_KERNEL_INIT_0p01/um_000000.png)
 ##### Initializing random_normal_initializer with stddev = 0.001
-![im01](runs/EPOCH_5_BATCH_2_KERNEL_INIT_0p001/um_000000.png.png)
+![im01](runs/EPOCH_5_BATCH_2_KERNEL_INIT_0p001/um_000000.png)
 ##### Initializing random_normal_initializer with stddev = 0.0001
-![im01](runs/EPOCH_5_BATCH_2_KERNEL_INIT_0p0001img/um_000000.png.png)
+![im01](runs/EPOCH_5_BATCH_2_KERNEL_INIT_0p0001img/um_000000.png)
 ##### Initializing random_normal_initializer with stddev = 0.00001
-![im01](runs/EPOCH_5_BATCH_2_KERNEL_INIT_0p00001img/um_000000.png.png)
+![im01](runs/EPOCH_5_BATCH_2_KERNEL_INIT_0p00001img/um_000000.png)
 
 ##### Best results
 The best results were achieved setting the kernel initializer to a standard deviation of 0.0001. Though there is no large difference to initializing the kernel with a standard deviation of 0.001.
