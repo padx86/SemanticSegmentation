@@ -41,7 +41,7 @@ The following images show the dependency of the quality of the classification in
 ##### Initializing random_normal_initializer with stddev = 0.0001
 ![im03](runs/EPOCH_5_BATCH_2_KERNEL_INIT_0p0001/um_000000.png)
 ##### Initializing random_normal_initializer with stddev = 0.00001
-![im04](runs/EPOCH_5_BATCH_2_KERNEL_INIT_0p0001/um_000000.png)
+![im04](runs/EPOCH_5_BATCH_2_KERNEL_INIT_0p00001/um_000000.png)
 
 ##### Best results
 The best results were achieved setting the kernel initializer to a standard deviation of 0.0001. Though there is no large difference to initializing the kernel with a standard deviation of 0.001.
